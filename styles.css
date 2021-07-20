@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+}
+
+.topnav {
+  background-color: #ffd365;
+  overflow: hidden;
+}
+
+.topnav p {
+  float: left;
+  padding: 0px 10px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(lovelo_font.otf);
+}
+
+.marginauto {
+  padding: 90px 450px 90px 550px;
+}
+
+.backgroundclock {
+  filter: blur(30px);
+  object-fit: fill;
+}
+
+.name {
+  float: right;
+  padding-right: 20px;
+  font-family: myFirstFont;
+  font-size: 20px;
+}
+.rightmenu a {
+  float: right;
+  color: #545454;
+  text-align: center;
+  padding: 21px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: myFirstFont;
+}
+
+.rightmenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.left-col {
+  float: left;
+  padding-top: 45px;
+  padding-left: 450px;
+  text-align: center;
+  text-decoration: none;
+  font-family: myFirstFont;
+}
+
+.right-col {
+  float: right;
+  padding-top: 45px;
+  padding-right: 450px;
+  text-align: center;
+  text-decoration: none;
+  font-family: myFirstFont;
+}
+
+.triangle {
+  width: 19px;
+  height: 19px;
+}
+
+.timezonesTwoClass {
+  font-size: 30px;
+  text-align: center;
+}
+
+.timezonesTwoClass a {
+  text-decoration: none;
+}
+
+.timezonesClass {
+  font-size: 30px;
+  text-align: center;
+}
+
+.timezonesClass a {
+  text-decoration: none;
+  position: center;
+}
+
+.middle {
+  font-family: myFirstFont;
+  font-size: 45px;
+  width: 65px;
+  margin: auto;
+  padding-top: 125px;
+}
+
+.middle span {
+  border: 4px solid black;
+  padding: 2px;
+}
+
+.middle p {
+  text-align: center;
+  padding: 2px;
+}
+
+.ampmbox {
+  font-family: myFirstFont;
+  width: 35px;
+  float: right;
+  padding-right: 700px;
+  padding-top: 10px;
+}
+
+.ampmbox span {
+  border: 3px solid black;
+}
+
+.timeZones {
+  display: none;
+  text-decoration: none;
+  background-color: #ffd365;
+  border: 3px solid black;
+  width: 175px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.timezonesClass ul {
+  padding: 10px;
+}
+
+.timezonesClass ul li {
+  padding: 10px;
+}
+
+.timezonesTwoClass ul {
+  padding: 10px;
+}
+
+.timezonesTwoClass ul li {
+  padding: 10px;
+}
+
+.timezonesTwoClass ul li a {
+  padding: 5px 45px 5px 45px;
+}
+
+.timezonesClass ul li a {
+  padding: 5px 45px 5px 45px;
+}
+
+.timezonesClass:hover ul {
+  display: block;
+  border-radius: 10px;
+}
+
+.timeZones li a {
+  text-decoration: none;
+}
+
+.timeZones li a:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+}
+
+.timeZonesTwo {
+  display: none;
+  text-decoration: none;
+  background-color: #ffd365;
+  border: 3px solid black;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.timezonesTwoClass:hover ul {
+  display: block;
+  border-radius: 12px;
+}
+
+.timeZonesTwo li a {
+  text-decoration: none;
+}
+
+.timeZonesTwo li a:hover {
+  background-color: #f3f3f3;
+  border: 3px solid black;
+}
+
+.input-section {
+  text-align: center;
+  padding-top: 100px;
+  float: center;
+  font-family: myFirstFont;
+  font-size: 25px;
+}
+
+.leftInput {
+  width: 45px;
+  height: 32px;
+  font-size: 25px;
+  font-family: myFirstFont;
+}
+
+.rightInput {
+  width: 45px;
+  height: 32px;
+  font-size: 25px;
+  font-family: myFirstFont;
+}
+
+.inputTime {
+  padding: 20px 0px 20px 0px;
+}
+
+.enterButton {
+  width: 125px;
+  height: 40px;
+}
+
+.colon {
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.am_pm a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.am_pm {
+  padding-top: 10px;
+  padding-left: 750px;
+}
+.ampm {
+  display: none;
+  text-decoration: none;
+  width: 100px;
+  height: 80px;
+  font-size: 30px;
+  list-style-type: none;
+  border: 3px solid black;
+  background-color: white;
+}
+
+.am_pm:hover ul {
+  display: block;
+
+  border-radius: 12px;
+}
+
+.ampm li a {
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.ampm li a {
+  padding: 0.5px 20px 0.5px 20px;
+}
+
+.ampm li a:hover {
+  background-color: #ffd365;
+  border: 2px solid black;
+}
+
+.navbar__container li a {
+  background-color: black;
+  background-size: 100px 100px;
+}
+
+.result {
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px 40px 40px 40px;
+  border: 4px solid #545454;
+  background-color: #ffd365;
+  border-radius: 12px;
+  box-shadow: 0px 10px 15px black;
+}
+
+.okayButton {
+  display: block;
+  font-family: myFirstFont;
+  transform: translate(129%, 30%);
+  width: 100px;
+  height: 45px;
+  font-size: 30px;
+  color: #ddd;
+  background-color: #545454;
+  border: 4px solid black;
+  border-radius: 12px;
+}

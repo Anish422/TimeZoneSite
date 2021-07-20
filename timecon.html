@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class = "topnav" >
+        <p><a href="index.html"><img  src="TimeZone (1).svg" height="65" width="65" /></a></p>
+          <div class="rightmenu">
+              <a href="timeregion.html">Time Regions</a> 
+              <a href="worldclock.html">World Clocks</a>
+              <a href="timecon.html">Time Conversions</a>
+              <a class="active" href="index.html">Home</a>
+            </div>
+       </div>
+
+
+
+
+    <div class="left-col">
+        <h1 class = "from"> Convert From</h1>
+        <ul class = "timezonesClass"><a href="#">Time Zones</a> <img src="1522547488.svg" class = "triangle" alt="menu" class = triangles>
+            <ul id = "leftList" class = "timeZones">
+                <li value = "EST"><a href="#">EST</a></li>
+                <li value = "PST"><a href="#">PST</a></li>
+                <li value = "MST"><a href="#">MST</a></li>
+                <li value = "UTC"><a href="#">UTC</a></li>
+            </ul>
+        </ul>
+ 
+    </div>
+
+
+
+
+    <div class="right-col">
+        <h1 class = "to"> Convert To</h1>
+        <ul class = "timezonesTwoClass"><a href="#">Time Zones</a> <img src="1522547488.svg" class = "triangle" alt="menu" class = triangles>
+            <ul id = "rightList" class = "timeZonesTwo">
+                <li><a href="#">EST</a></li>
+                <li><a href="#">PST</a></li>
+                <li><a href="#">MST</a></li>
+                <li><a href="#">UTC</a></li>
+            </ul>
+        </ul>
+    </div>
+  
+<div class = "middle">
+<p><span id = "output"></span></p>
+<p>TO</p>
+<p><span id = "output2"></span></p>
+</div>
+
+<div class="input-section">
+    <h2 class = "asking">Please Enter Your Initial Time:</h2>
+    <div class="inputTime">
+        
+    <div>
+        <div><input type = "number" id = "hourInput" name = "time" min = "1" max = "12" class = "leftInput">
+            <a href="#" class = "colon">:</a>
+            <input type = "number" min = "0" id = "minInput" name = "time" max = "59" class = "rightInput">
+        </div>  
+        
+        <div class = "ampmbox">
+            <p><span id = "output3"></span></p>
+        </div> 
+
+    </div>    
+
+        <ul class = "am_pm"><a href="#">AM/PM</a> <img src="1522547488.svg" class = "triangle" alt="menu" class = triangles>
+            <ul id = "ampmchoice" class = "ampm">
+                <li><a href="#">AM</a></li>
+                <li><a href="#">PM</a></li>
+            </ul>
+        </ul>
+    <button id = "enterButton" class = "enterButton" onclick="getInput();">Enter</button>
+    <script src="timecon.js"></script>
+ 
+</div>
+    
+
+    <div id = "result" class = "result" style="display: none;">
+        <p>Your time is</p>
+        <span id = "resultTime"></span>
+        <button id = "okayButton" class = "okayButton" onclick="window.location.reload();">Okay</button>
+    </div>
+
+
+
+</body>
+</nav>
+
+<script>src = "index.js"</script>
+<script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>

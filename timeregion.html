@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+
+    <div class = "topnav" >
+        <p><a href="index.html"><img  src="TimeZone (1).svg" height="65" width="65" /></a></p>
+          <div class="rightmenu">
+              <a href="timeregion.html">Time Regions</a> 
+              <a href="worldclock.html">World Clocks</a>
+              <a href="timecon.html">Time Conversions</a>
+              <a class="active" href="index.html">Home</a>
+            </div>
+       </div>
+
+  
+
+       <div class = "mapDiv">
+            <h1 class = "mapText">Click the circles to find the time in your region</h1>
+           <img  class = "mapImg" src="TimeZoneMap.jpg" alt="Map">
+           <ul id = "circles" class = "circles" >
+               <li><button id = "circle1" class = "circle1" onclick="button1()"></button></li>
+               <script src="map.js"></script>
+               <li><button id = "circle2" class = "circle1" onclick="button2()"></button></li>
+               <li><button id = "circle3" class = "circle1" onclick="button3()"></button></li>
+               <li><button id = "circle4" class = "circle1" onclick="button4()"></button></li>
+               <li><button id = "circle5" class = "circle1" onclick="button5()"></button></li>
+               <li><button id = "circle6" class = "circle1" onclick="button6()"></button></li>
+               <li><button id = "circle7" class = "circle1" onclick="button7()"></button></li>
+               <li><button id = "circle8" class = "circle1" onclick="button8()"></button></li>
+               <li><button id = "circle9" class = "circle1" onclick="button9()"></button></li>
+               <li><button id = "circle10" class = "circle1" onclick="button10()"></button></li>
+               <li><button id = "circle11" class = "circle1" onclick="button11()"></button></li>
+               <li><button id = "circle12" class = "circle1" onclick="button12()"></button></li>
+               <li><button id = "circle13" class = "circle1" onclick="button13()"></button></li>
+               <li><button id = "circle14" class = "circle1" onclick="button14()"></button></li>
+               <li><button id = "circle15" class = "circle1" onclick="button15()"></button></li>
+               <li><button id = "circle16" class = "circle1" onclick="button16()"></button></li>
+               <li><button id = "circle17" class = "circle1" onclick="button17()"></button></li>
+               <li><button id = "circle18" class = "circle1" onclick="button18()"></button></li>
+               <li><button id = "circle19" class = "circle1" onclick="button19()"></button></li>
+               <li><button id = "circle20" class = "circle1" onclick="button20()"></button></li>
+               <li><button id = "circle21" class = "circle1" onclick="button21()"></button></li>
+               <li><button id = "circle22" class = "circle1" onclick="button22()"></button></li>
+               <li><button id = "circle23" class = "circle1" onclick="button23()"></button></li>
+               <li><button id = "circle24" class = "circle1" onclick="button24()"></button></li>
+               <li><button id = "circle25" class = "circle1" onclick="button25()"></button></li>
+               <li><button id = "circle26" class = "circle1" onclick="button26()"></button></li>
+               <li><button id = "circle27" class = "circle1" onclick="button27()"></button></li>
+               <li><button id = "circle28" class = "circle1" onclick="button28()"></button></li>   
+             <script>src = "map.js"</script>
+           </ul>
+        </div>
+
+        <div id = "result" class = "result" style="display: none;">
+            <p>Your time is</p>
+            <span id = "resultTime"></span>
+            <button id = "okayButton" class = "okayButton" onclick="window.location.reload();">Okay</button>
+        </div>
+
+   
+
+</html>
