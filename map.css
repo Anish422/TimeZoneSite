@@ -61,6 +61,7 @@ body {
   text-align: center;
   padding-top: 30px;
   color: #ffd365;
+  margin: auto;
   -webkit-text-stroke: 2.5px #545454;
   font-size: 40px;
   position: absolute;
